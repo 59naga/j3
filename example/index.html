@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="../lib/jThree.js"></script>
+<script src="../lib/jThree.Stats.js"></script>
+<!-- <script src="../lib/jThree.Trackball.js"></script> -->
+<script src="../lib/jThree.MMD.js"></script>
+<!-- <script src="../lib/jThree.XFile.js"></script> -->
+
+<style>
+  body{
+    background-color:grey;
+    /* requiment */
+    position:fixed;
+    width:100%;
+    height:100%;
+    margin:0;
+  }
+</style>
+<script>
+  jThree(function(j3){
+    // j3.Trackball();
+    j3.Stats();
+  });
+</script>
+
+<script type="text/goml">
+  <goml>
+    <head>
+      <rdr frame="body" camera="camera:first" param="antialias: true; clearAlpha:0;" />
+    </head>
+    <body>
+      <scene>
+
+        <camera style="cameraFar: 10000; position: 2 18 30; lookAtY: 10;">
+            <light type="Dir" style="position: 1 3 5;" />
+        </camera>
+        <light type="Amb" style="lightColor: #555;" />
+        <mmd model="miku/index.pmx" motion="miku/im5066365.vmd" onLoad="parent.jThree.MMD.play( true );" />
+        
+      </scene>
+    </body>
+  </goml>
+</script>
+
+</head>
+</html>

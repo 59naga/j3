@@ -1,0 +1,24 @@
+{
+  "name": "j3",
+  "version": "2.1.2",
+  "homepage": "https://github.com/59naga/jThree",
+  "main": [
+    "lib/jThree.js",
+    "lib/jThree.Collada.js",
+    "lib/jThree.FlyView.js",
+    "lib/jThree.JSON.js",
+    "lib/jThree.Leap.js",
+    "lib/jThree.MMD.js",
+    "lib/jThree.MobileVR.js",
+    "lib/jThree.Oculus.js",
+    "lib/jThree.Orbit.js",
+    "lib/jThree.STL.js",
+    "lib/jThree.Stats.js",
+    "lib/jThree.Stereo.js",
+    "lib/jThree.Trackball.js",
+    "lib/jThree.XFile.js"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
