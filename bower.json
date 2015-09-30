@@ -3,6 +3,7 @@
   "version": "2.1.2",
   "homepage": "https://github.com/59naga/jThree",
   "main": [
+    "lib/ammo.js",
     "lib/jThree.js",
     "lib/jThree.Collada.js",
     "lib/jThree.FlyView.js",

@@ -5,7 +5,7 @@ j3.js (jThree非公式フォーク板)
 
 # インストール
 ```bash
-bower install 59naga/j3 --save
+bower install j3 --save
 
 open http://localhost:8000/index.html
 python -m SimpleHTTPServer 
@@ -20,6 +20,7 @@ python -m SimpleHTTPServer
 <head>
 <meta charset="UTF-8">
 <script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/j3/lib/ammo.js"></script>
 <script src="bower_components/j3/lib/jThree.js"></script>
 <script src="bower_components/j3/lib/jThree.Stats.js"></script>
 <script src="bower_components/j3/lib/jThree.MMD.js"></script>
